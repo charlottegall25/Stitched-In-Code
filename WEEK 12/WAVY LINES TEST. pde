@@ -1,0 +1,56 @@
+import processing.embroider.*;
+PEmbroiderGraphics E;
+
+void setup() {
+  size(500, 500); // For Processing visualization only
+  int hoopSize = 100; // Brother SE425 hoop in mm
+  E = new PEmbroiderGraphics(this, hoopSize, hoopSize);
+  
+  E.beginDraw();
+  E.strokeWeight(2);    // Approx stitch thickness in mm
+  E.noFill();
+  
+  // Background for visualization
+  background(250, 246, 240); // #faf6f0
+  
+  // Colour palette
+  color[] cols = {
+    color(242, 169, 183), // soft pink
+    color(239, 167, 132), // peach
+    color(233, 76, 69)    // red
+  };
+  
+  // Wavy line parameters
+  int numLines = 4;
+  float amplitude = 5;    // max x offset (mm)
+  float yMargin = 5;      // distance from top and bottom edges
+  float xMargin = 15;     // distance from left/right edges
+  
+  // Compute spacing dynamically so lines fit inside hoop
+  float spacing = (hoopSize - 2 * xMargin) / (numLines - 1);
+  
+  // Draw vertical wavy lines
+  for (int i = 0; i < numLines; i++) {
+    E.stroke(cols[i % cols.length]);
+    float xPos = xMargin + i * spacing;
+    drawWavyLine(E, xPos, yMargin, hoopSize - yMargin, amplitude, 0.15);
+  }
+  
+  E.optimize();  
+  E.visualize(true, true, true);
+  
+  // Export PES file
+  String outputFilePath = sketchPath("3WavyLinesNEW.pes");
+  E.setPath(outputFilePath);
+  E.endDraw();
+}
+
+// Draw a single vertical wavy line within the hoop
+void drawWavyLine(PEmbroiderGraphics g, float x, float y1, float y2, float amplitude, float freq) {
+  g.beginShape();
+  for (float y = y1; y <= y2; y += 1) { // 1mm step for smooth stitches
+    float xOffset = sin(y * freq) * amplitude;
+    g.vertex(x + xOffset, y);
+  }
+  g.endShape();
+}
