@@ -1,0 +1,34 @@
+import processing.embroider.*;
+PEmbroiderGraphics E;
+
+void setup() {
+  size(500, 500);
+    int hoopSize = 100; // Brother SE425 hoop in mm
+  E = new PEmbroiderGraphics(this, hoopSize, hoopSize);
+  background(255);
+
+  // Create embroidery canvas (500x500)
+  E = new PEmbroiderGraphics(this, 500, 500);
+  E.beginDraw();
+
+  // Embroidery settings
+  
+
+ 
+  E.stroke(0);                  
+  E.strokeWeight(2);
+
+  // Draw a square (x, y, width, height)
+  E.rectMode(CENTER);
+  E.noFill();
+  E.rect(width/2, height/2, 200, 200);
+
+  // Finish and preview
+ 
+  E.optimize();
+  String outputFilePath = sketchPath("PEmbroider_Square.pes");
+  E.setPath(outputFilePath);
+  E.endDraw();
+  E.visualize(true, true, true);           
+  
+}
