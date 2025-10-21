@@ -1,0 +1,684 @@
+
+// setup loop
+
+void setup(){
+  // set the line end to square
+  strokeCap(SQUARE); 
+  size(500,500);
+  background(255,255,255);
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(0,0,0,200);
+  
+  
+// first blue vertical lines
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(0,20,0,210);
+  
+strokeWeight(20);
+  stroke(111,201,255);
+  line(40,0,40,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(80,0,80,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(120,0,120,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(160,0,160,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(200,0,200,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(240,0,240,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(280,0,280,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(320,0,320,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(360,0,360,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(400,0,400,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(440,0,440,210);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(480,0,480,210);
+  
+  
+// Second horizontal blue line
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(0,140,500,140);
+  
+// First horizontal blue line
+strokeWeight(20);
+stroke(111,201,255);
+line(0,100,500,100);
+
+// Third horizontal blue line 
+strokeWeight(20);
+stroke(111,201,255);
+line(0,180,500,180);
+
+// Fourth horizontal blue line
+strokeWeight(20); 
+stroke(111,201,255);
+line(0,330,500,330);
+
+// Fifth horizontal GREEN line 
+strokeWeight(20); 
+stroke(214,242,191);
+line(0,370,500,370);
+  
+  
+  
+  // First yellow squares
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(0,90,0,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(40,90,40,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(80,90,80,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(120,90,120,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(160,90,160,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(200,90,200,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(240,90,240,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(280,90,280,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(320,90,320,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(360,90,360,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(400,90,400,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(440,90,440,110);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(480,90,480,110);
+  
+  
+// Second yellow squares
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(0,130,0,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(40,130,40,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(80,130,80,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(120,130,120,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(160,130,160,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(200,130,200,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(240,130,240,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(280,130,280,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(320,130,320,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(360,130,360,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(400,130,400,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(440,130,440,150);
+  
+  strokeWeight(20);
+  stroke(252,241,140);
+  line(480,130,480,150);
+
+
+// Third yellow squares
+   strokeWeight(20);
+  stroke(103,96,35);
+  line(0,170,0,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(40,170,40,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(80,170,80,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(120,170,120,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(160,170,160,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(200,170,200,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(240,170,240,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(280,170,280,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(320,170,320,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(360,170,360,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(400,170,400,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(440,170,440,190);
+  
+  strokeWeight(20);
+  stroke(103,96,35);
+  line(480,170,480,190);
+  
+  
+// Second vertical blue lines
+ strokeWeight(20);
+  stroke(111,201,255);
+  line(20,210,20,260);
+  
+strokeWeight(20);
+  stroke(111,201,255);
+  line(60,210,60,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(100,210,100,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(140,210,140,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(180,210,180,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(220,210,220,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(260,210,260,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(300,210,300,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(340,210,340,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(380,210,380,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(420,210,420,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(460,210,460,260);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(500,210,500,260);
+  
+
+// First Blue squares 
+strokeWeight(20);
+  stroke(111,201,255);
+  line(0,260,0,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(40,260,40,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(80,260,80,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(120,260,120,280);
+  
+  strokeWeight(20);
+  stroke(111,201,35255);
+  line(160,260,160,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(200,260,200,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(240,260,240,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(280,260,280,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(320,260,320,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(360,260,360,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(400,260,400,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(440,260,440,280);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(480,260,480,280);
+  
+  // Third vertical blue lines 
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(20,280,20,330);
+  
+strokeWeight(20);
+  stroke(111,201,255);
+  line(60,280,60,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(100,280,100,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(140,280,140,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(180,280,180,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(220,280,220,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(260,280,260,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(300,280,300,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(340,280,340,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(380,280,380,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(420,280,420,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(460,280,460,330);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(500,280,500,330);
+  
+//Fourth yellow squares 
+ strokeWeight(20);
+  stroke(250,231,58);
+  line(20,320,20,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(60,320,60,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(100,320,100,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(140,320,140,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(180,320,180,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(220,320,220,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(260,320,260,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(300,320,300,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(340,320,340,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(380,320,380,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(420,320,420,340);
+  
+  strokeWeight(20);
+  stroke(250,231,58);
+  line(460,320,460,340);
+  
+  strokeWeight(20); 
+  stroke(250,231,58); 
+  line(500,320,500,340);
+  
+// Second blue squares
+strokeWeight(20);
+  stroke(111,201,255);
+  line(20,340,20,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(60,340,60,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(100,340,100,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(140,340,140,360);
+  
+  strokeWeight(20);
+  stroke(111,201,35255);
+  line(180,340,180,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(220,340,220,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(260,340,260,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(300,340,300,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(340,340,340,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(380,340,380,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(420,340,420,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(460,340,460,360);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(500,340,500,360);
+  
+  // Blue Squares after GREEN 
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(0,360,0,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(40,360,40,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(80,360,80,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(120,360,120,380);
+  
+  strokeWeight(20);
+  stroke(111,201,35255);
+  line(160,360,160,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(200,360,200,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(240,360,240,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(280,360,280,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(320,360,320,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(360,360,360,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(400,360,400,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(440,360,440,380);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(480,360,480,380);
+  
+  // Final Blue Squares 
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(20,380,20,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(60,380,60,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(100,380,100,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(140,380,140,400);
+  
+  strokeWeight(20);
+  stroke(111,201,35255);
+  line(180,380,180,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(220,380,220,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(260,380,260,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(300,380,300,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(340,380,340,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(380,380,380,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(420,380,420,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(460,380,460,400);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(500,380,500,400);
+  
+  //Final vertical blue lines
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(0,400,0,500);
+  
+strokeWeight(20);
+  stroke(111,201,255);
+  line(40,400,40,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(80,400,80,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(120,400,120,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(160,400,160,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(200,400,200,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(240,400,240,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(280,400,280,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(320,400,320,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(360,400,360,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(400,400,400,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(440,400,440,500);
+  
+  strokeWeight(20);
+  stroke(111,201,255);
+  line(480,400,480,500);
+}
+  
+  
+  
