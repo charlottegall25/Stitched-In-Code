@@ -2,4 +2,5 @@
 Stitched in Code explores how digital code can replicate the imperfect, hand-made qualities of textile design and transform them back into a physical form. Inspired by Anna Spiro’s bold and layered fabric patterns, this project uses Processing and the PEmbroider library to generate and export coded designs into embroidery files for a Brother SE425 machine. By merging creative coding with traditional craft, the project investigates the intersection of technology and tactility, showing how algorithmic precision can still evoke the beauty of human-made imperfection.
 
 **INSTRUCTIONS**
-You can find my prototype in this folder 
+You can find my prototype in this folder **https://github.com/charlottegall25/Stitched-In-Code/tree/d96c63ef3eac9950caf3a77328bdef4bff5941ba/IMAGES** 
+
